@@ -2,7 +2,10 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
     basePath: "/hyde-park",
-    output: "export" // <=== enables static exports
+    output: "export", 
+    images:{
+        unoptimized:true
+    }
 };
 
 export default nextConfig;
